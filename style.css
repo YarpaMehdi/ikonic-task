@@ -1,0 +1,140 @@
+/*
+Theme Name: ikonic theme
+Author: Mehdi Ali
+*/
+
+/* === HEADER PAGE CSS === */
+header.main_header{padding:20px 0}
+.logo img {max-width: 160px;}
+.main-menu-desktop ul li a{padding:.85rem 1rem;font-size:15px;font-weight:500;position:relative;text-transform:capitalize}
+.main-menu-desktop ul{display:flex;align-items:center;justify-content:center}
+a.theme_btn{color:#fff;background-color:var(--bs-primary);border-color:var(--bs-primary);-webkit-box-shadow:0 11px 18px -8px #175cff99;box-shadow:0 11px 18px -8px rgba(23,92,255,0);padding:.65rem 1.75rem;font-weight:500;border-radius:.375rem}
+.main-menu-desktop .current-menu-item>a,.main-menu-desktop .current_page_item>a{color:#175cff99}
+/* === HEADER PAGE CSS END === */
+
+/* === HOME PAGE CSS === */
+.container_box{max-width:600px;margin:0 auto;text-align:center;display:flex;flex-direction:column;gap:20px;justify-content:center;align-items:center}
+.banner_details{height:87vh;display:flex;align-items:center}
+.container_box h1{color:#fff;text-transform:uppercase;font-weight:700}
+.container_box p{color:#fff}
+.container_box a.theme_btn{display:inline-block;width:150px}
+.banner .owl-dots { position: absolute; bottom: 50px; left: 0; right: 0; background: transparent;margin: 0 auto; text-align: center;}
+.banner .owl-dots button.owl-dot { background: #fff; width: 10px;height: 10px;margin-right: 10px;border-radius: 50%;}
+.banner button.owl-dot.active {width: 50px;border-radius: 5px;transition: linear 0.3s;}
+.banner .owl-item.active .container_box h1 {-webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; animation-name: fadeInLeft; animation-delay: 1.3s;}
+.banner .owl-item.active .container_box  p{-webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; animation-name: fadeInRight; animation-delay: 1.3s;}
+.banner .owl-item.active .container_box .theme_btn {-webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; animation-name: fadeInLeft; animation-delay: 1.3s;}
+.banner{position:relative}
+.banner button.owl-next,.banner button.owl-prev{width:40px;height:40px;background:0 0;border:1px solid #fff;border-radius:5px}
+.banner button.owl-next span,.banner button.owl-prev span{font-size:26px;color:#fff}
+.banner button.owl-next,.banner button.owl-prev{position:absolute;top:50%}
+.banner button.owl-prev{left:60px}
+.banner button.owl-next{right:60px}
+/* === HOME PAGE CSS END === */
+
+/* === BLOG PAGE CSS === */
+.blog-posts { padding:70px 0; } 
+.blog-post { position: relative; -webkit-box-shadow: 0 0 25px rgba(23,23,23,0.10); -moz-box-shadow: 0 0 25px rgba(23,23,23,0.10); -ms-box-shadow: 0 0 25px rgba(23,23,23,0.10); -o-box-shadow: 0 0 25px rgba(23,23,23,0.10); box-shadow: 0 0 25px rgba(23,23,23,0.10);margin-bottom: 15px; }
+.blog-thumbnail { position: relative; height: 300px; overflow:hidden; }
+.blog-thumbnail > img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.blog-info { position:relative; }
+.blog-info .category { background-color: #000; position: absolute; top: -13px; left: 25px; display: inline-block; padding: 0 10px; height: 26px; line-height: 26px; color: #fff; font-size: 11px; font-weight: 500; }
+.blog-info { background-color: #fff; padding:35px 25px; }
+.blog-info > small { display: block; color: #83858f; font-size: 16px; font-weight: 500; margin:0 0 10px; }
+.blog-info .blog-title { color: #000; font-size: 23px; font-weight: 700; line-height: 35px; margin:0 0 10px; }
+.blog-info > p { color: #000; font-size: 15px; line-height: 29px; font-weight: 500; margin:0 0 20px; }
+.blog-info .lnk-default2 { margin: 0; }
+.blog-info .lnk-default2 i { right: auto; left: 100%; margin: 0 0 0 8px; }
+/* === BLOG PAGE CSS END === */
+
+
+.project-details * {color: #fff;}
+.project-details {max-width: 690px;margin: 0 auto;}
+
+
+
+/*Search Form*/
+.search-results{display:flex;flex-direction:column;gap:20px}
+.search-result-item{display:flex;gap:15px;border-bottom:1px solid #ddd;padding-bottom:15px}
+.search-result-thumbnail img{width:150px;height:auto;object-fit:cover}
+.search-result-title{font-size:1.25em;margin:0}
+.search-result-excerpt{color:#666}
+.searchFrm{text-align:center;margin-bottom:50px}
+.searchFrm input,.search-form input{border:1px solid #ccc;padding:10px 10px;width:60%}
+.searchFrm input.search-submit ,.search-form input.search-submit{width:20%;color:#fff;background-color:var(--bs-primary);border-color:var(--bs-primary);-webkit-box-shadow:0 11px 18px -8px #175cff99;box-shadow:0 11px 18px -8px rgba(23,92,255,0);padding:.65rem 1.75rem;font-weight:500;border-radius:.375rem}
+form.search-form{display:flex;justify-content:center;gap:20px}
+
+.not_found_post {display: flex;flex-direction: column;height: 500px;align-items: center;padding-top: 50px;text-align: center;}
+
+
+/*footer*/
+.footer-section{background:#151414;position:relative}
+.copyright-area{background:#202020;padding:25px 0}
+.copyright-text p{margin:0;font-size:14px;color:#878787}
+.copyright-text p a{color:#fff}
+.footer-menu li{display:inline-block;margin-left:20px}
+.footer-menu li:hover a{color:#175cff99}
+.footer-menu li a{font-size:14px;color:#878787}
+
+
+.mobileheader{display:none;}
+/* Responsive Design: */
+
+@media (min-width: 0px) and (max-width: 767px){
+
+.mobileheader{padding: 15px 0; display:block;}
+.mobileheader .branding-logo{width: 70%; display: inline-block;}
+.mobileheader .branding-logo img{}
+.mobileheader .menu-btn{width: 28%;display: inline-block; text-align: right;}
+.mobileheader .menu-btn a{color: #000;font-size: 24px; padding: 0px 0 0 0;display: inline-block;}
+.mobilemenu{background: rgb(0 0 0 / 88%); width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 999; padding: 40px 0 0 0;display: none;}
+.mobilemenu ul{text-align: left; margin: 20px 0 0 0;}
+.mobilemenu ul li{display: block !important; border-bottom: solid 1px rgb(255 255 255 / 15%);}
+.mobilemenu ul li a{color: #fff !important; font-size: 14px !important; display: block; padding: 10px 20px !important;}
+.m-close-btn{display: block; position: absolute; top: 0; right: 0; color: #fff; font-size: 32px; padding: 20px 20px;}
+.mobileheader button.sub-menu-toggle{display:none;}
+.mobileheader ul li.menu-item-has-children{position:relative;}
+.mobileheader ul li.menu-item-has-children a{display:inline-block;}
+.mobileheader ul li.menu-item-has-children:after{content:"\f067";font-family:'FontAwesome';position:absolute;display:block;width:15px;height:15px;right:20px;top:13px;bottom:0;color:#fff;line-height:100%;font-size:15px;font-weight:100;text-align:center;}
+.mobileheader ul li.menu-item-has-children.active:after{content:"\f068"}
+.mobileheader ul li.menu-item-has-children ul.sub-menu{margin:0; display:none;}
+.mobileheader ul li.menu-item-has-children ul.sub-menu li{position:relative;padding:0 0 0 6px;margin:0 0 0 25px;}
+.mobileheader ul li.menu-item-has-children ul.sub-menu li:before{content:"";position:absolute;display:block;width:10px;height:1px;background:#fff;top:0;left:0;bottom:0;margin:auto 0;}
+.mobileheader ul li.menu-item-has-children ul.sub-menu li a{font-size:70%;display:block;}
+
+header.main_header{display:none}
+.banner_details{height:70vh}
+.container_box h1{font-size:20px}
+.container_box{padding:0 20px}
+.container_box p{font-size:14px}
+.banner button.owl-next,.banner button.owl-prev{width:20px;height:20px;line-height:20px}
+.banner button.owl-next span,.banner button.owl-prev span{font-size:16px}
+.banner button.owl-next,.banner button.owl-prev{top:90%}
+.banner button.owl-prev{left:20px}
+.banner button.owl-next{right:20px}
+
+
+}
+@media (min-width: 768px) and (max-width: 1023px){
+header.main_header { display: none;}
+.mobileheader{padding: 15px 0; display:block;}
+.mobileheader .branding-logo{width: 70%; display: inline-block;}
+.mobileheader .branding-logo img{}
+.mobileheader .menu-btn{width: 28%;display: inline-block; text-align: right;}
+.mobileheader .menu-btn a{color: #000;font-size: 24px; padding: 0px 0 0 0;display: inline-block;}
+.mobilemenu{background: rgb(0 0 0 / 88%); width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 999; padding: 40px 0 0 0;display: none;}
+.mobilemenu ul{text-align: left; margin: 20px 0 0 0;}
+.mobilemenu ul li{display: block !important; border-bottom: solid 1px rgb(255 255 255 / 15%);}
+.mobilemenu ul li a{color: #fff !important; font-size: 14px !important; display: block; padding: 10px 20px !important;}
+.m-close-btn{display: block; position: absolute; top: 0; right: 0; color: #fff; font-size: 32px; padding: 20px 20px;}
+.mobileheader button.sub-menu-toggle{display:none;}
+.mobileheader ul li.menu-item-has-children{position:relative;}
+.mobileheader ul li.menu-item-has-children a{display:inline-block;}
+.mobileheader ul li.menu-item-has-children:after{content:"\f067";font-family:'FontAwesome';position:absolute;display:block;width:15px;height:15px;right:20px;top:13px;bottom:0;color:#fff;line-height:100%;font-size:15px;font-weight:100;text-align:center;}
+.mobileheader ul li.menu-item-has-children.active:after{content:"\f068"}
+.mobileheader ul li.menu-item-has-children ul.sub-menu{margin:0; display:none;}
+.mobileheader ul li.menu-item-has-children ul.sub-menu li{position:relative;padding:0 0 0 6px;margin:0 0 0 25px;}
+.mobileheader ul li.menu-item-has-children ul.sub-menu li:before{content:"";position:absolute;display:block;width:10px;height:1px;background:#fff;top:0;left:0;bottom:0;margin:auto 0;}
+.mobileheader ul li.menu-item-has-children ul.sub-menu li a{font-size:70%;display:block;}
+}
+@media (min-width: 1024px) and (max-width: 1440px){}
